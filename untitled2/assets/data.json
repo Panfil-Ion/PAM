@@ -1,0 +1,154 @@
+{
+  "medicineFeed": {
+    "user": {
+      "name": "Tanvir Ahassan",
+      "location": "Mirpur, Dhaka",
+      "profile_image": "assets/psycho/cont.jpg"
+    },
+    "actions": [
+      {
+        "title": "Book Appointment",
+        "image": "assets/psycho/book.png"
+      },
+      {
+        "title": "Instant Video Consult",
+        "image": "assets/psycho/video.png"
+      },
+      {
+        "title": "Medicines",
+        "image": "assets/psycho/med.png"
+      },
+      {
+        "title": "Lab Tests",
+        "image": "assets/psycho/lab.png"
+      },
+      {
+        "title": "Emergency",
+        "image": "assets/psycho/emergency.png"
+      }
+    ],
+    "specialities": [
+      {
+        "id": 1,
+        "name": "Eye Specialist",
+        "icon": "assets/psycho/eye.png"
+      },
+      {
+        "id": 2,
+        "name": "Dentist",
+        "icon": "assets/psycho/dentist.png"
+      },
+      {
+        "id": 3,
+        "name": "Cardiologist",
+        "icon": "assets/psycho/cardio.png"
+      },
+      {
+        "id": 4,
+        "name": "Pulmonologist",
+        "icon": "assets/psycho/pulmono.png"
+      },
+      {
+        "id": 5,
+        "name": "Psychiatrist",
+        "icon": "assets/psycho/psycho.png"
+      }
+    ],
+    "specialists": [
+      {
+        "id": 101,
+        "name": "Dr. Ahsan Rahman",
+        "speciality": "General Practitioner",
+        "rating": 4.8,
+        "available": true,
+        "image": "assets/psycho/dr_a.png"
+      },
+      {
+        "id": 102,
+        "name": "Dr. Imran Hossain",
+        "speciality": "General Practitioner",
+        "rating": 4.7,
+        "available": true,
+        "image": "assets/psycho/dr_b.png"
+      },
+      {
+        "id": 103,
+        "name": "Dr. Nafisa Karim",
+        "speciality": "Cardiologist",
+        "rating": 4.9,
+        "available": false,
+        "image": "assets/psycho/emma.jpg"
+      },
+      {
+        "id": 104,
+        "name": "Dr. Tariq Ahmed",
+        "speciality": "Dentist",
+        "rating": 4.6,
+        "available": true,
+        "image": "assets/psycho/dr_a.png"
+      }
+    ]
+  },
+  "doctorDetails": {
+    "doctor": {
+      "id": 201,
+      "name": "Dr. Emma Kathrin",
+      "speciality": "Cardiologist",
+      "qualification": "MBBS",
+      "profile_image": "assets/psycho/emma.jpg",
+      "rating": 4.3,
+      "reviews_count": 120,
+      "years_of_experience": 14,
+      "patients_treated": 125,
+      "is_favorite": false
+    },
+    "appointment": {
+      "type": "In-Clinic Appointment",
+      "fee": 1000,
+      "currency": "৳",
+      "hospital": {
+        "name": "Evercare Hospital Ltd.",
+        "location": "Bashundhara, Dhaka",
+        "wait_time": "20 mins or less",
+        "more_clinics": [
+          {"name": "Square Hospital", "location": "Panthapath, Dhaka"},
+          {"name": "United Hospital", "location": "Gulshan, Dhaka"}
+        ]
+      },
+      "available_days": [
+        {"day": "Today", "slots": []},
+        {
+          "day": "Tomorrow",
+          "slots": ["06:00 - 06:30", "06:30 - 07:00"]
+        },
+        {
+          "day": "17 Oct",
+          "slots": ["07:00 - 07:30", "07:30 - 08:00"]
+        }
+      ]
+    },
+    "timing": [
+      {"day": "Monday", "time": "09:00 AM - 05:00 PM"},
+      {"day": "Tuesday", "time": "Closed"},
+      {"day": "Wednesday", "time": "09:00 AM - 05:00 PM"},
+      {"day": "Thursday", "time": "09:00 AM - 05:00 PM"},
+      {"day": "Friday", "time": "10:00 AM - 02:00 PM"},
+      {"day": "Saturday", "time": "09:00 AM - 01:00 PM"},
+      {"day": "Sunday", "time": "Closed"}
+    ],
+    "locations": [
+      {
+        "area": "Shahbag",
+        "hospital": "BSSMU - Bangabandhu Sheikh Mujib Medical University",
+        "full_address": "Shahbagh, Dhaka"
+      },
+      {
+        "area": "Bashundhara",
+        "hospital": "Evercare Hospital Ltd.",
+        "full_address": "Plot 81, Block E, Bashundhara R/A, Dhaka"
+      },
+      {"area": "Banani", "hospital": "Popular Diagnostic Centre", "full_address": "House 11, Road 2, Banani, Dhaka"}
+    ],
+    "tabs": ["Info", "History", "Review"]
+  }
+}
